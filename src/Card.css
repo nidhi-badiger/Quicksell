@@ -1,0 +1,18 @@
+/* src/styles/Card.css */
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(14, 13, 13, 0.1);
+   
+    margin-bottom: 16px;
+    height: 140px;
+    width: 300px;
+  }
+
+.text{
+  flex-direction: column;
+ 
+}
+.text h3 {
+    color: black;
+}

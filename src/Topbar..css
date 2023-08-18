@@ -1,0 +1,23 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(198, 201, 201);
+    padding: 10px 20px;
+  }
+  
+  .name-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name {
+    margin-right: 10px;
+  }
+  
+  .add-icon {
+    font-size: 20px;
+    color: #007bff; /* You can change this color to your preference */
+    cursor: pointer;
+  }
+  

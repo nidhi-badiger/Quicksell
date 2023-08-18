@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import KanBoard from './KanbanBoard';
 import './App.css';
+import TopBar from './Topbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='display'>
+          <span>Display :</span>
+        <select name="Display" id="display">
+            <option value="Group">Group by</option>
+  
+             <option value="Sorting">Sort by</option>
+  
+</select>
+        </div>
       </header>
+      <main>
+        <TopBar/>
+        <KanBoard />
+      </main>
     </div>
   );
 }
